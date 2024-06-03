@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NGO - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Save the Earth NGO</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="activities.html">Activities</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container">
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or would like to get involved, please contact us using the form below or reach out to us via email or phone. We look forward to hearing from you!</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> info@savetheearth.org</p>
+            <p><strong>Phone:</strong> +123-456-7890</p>
+            <p><strong>Address:</strong> 123 Green Street, Eco City, Earth</p>
+            <p><strong>Follow us on:</strong></p>
+            <ul class="social-media">
+                <li><a href="https://www.facebook.com/earth.thengo/">Facebook</a></li>
+                <li><a href="https://twitter.com/savetheearth">Twitter</a></li>
+                <li><a href="https://www.instagram.com/earth_ngo/">Instagram</a></li>
+                <li><a href="https://ca.linkedin.com/company/save-earth">LinkedIn</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Save the Earth NGO. All rights reserved.</p>
+            <p>Contact us at: info@savetheearth.org</p>
+        </div>
+    </footer>
+</body>
+</html>
